@@ -13,6 +13,14 @@
 		497267EC271CA7A500B5C0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497267EA271CA7A500B5C0ED /* Main.storyboard */; };
 		497267EE271CA7A600B5C0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497267ED271CA7A600B5C0ED /* Assets.xcassets */; };
 		497267F1271CA7A600B5C0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497267EF271CA7A600B5C0ED /* LaunchScreen.storyboard */; };
+		497267FA271CC27B00B5C0ED /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497267F9271CC27B00B5C0ED /* InfoViewController.swift */; };
+		497267FF271CC3C600B5C0ED /* LevelOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497267FE271CC3C600B5C0ED /* LevelOneViewController.swift */; };
+		49726802271CC3F500B5C0ED /* LevelTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49726801271CC3F500B5C0ED /* LevelTwoViewController.swift */; };
+		49726805271CC49700B5C0ED /* Level1Story1Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49726804271CC49700B5C0ED /* Level1Story1Page1ViewController.swift */; };
+		49726808271CC4BD00B5C0ED /* Level1Story1Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49726807271CC4BD00B5C0ED /* Level1Story1Page2ViewController.swift */; };
+		4972680B271CC4DD00B5C0ED /* Level1Story2Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972680A271CC4DD00B5C0ED /* Level1Story2Page1ViewController.swift */; };
+		4972680E271CC50A00B5C0ED /* Level2Story1Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972680D271CC50A00B5C0ED /* Level2Story1Page1ViewController.swift */; };
+		49726811271CC54000B5C0ED /* Level2Story1Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49726810271CC54000B5C0ED /* Level2Story1Page2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		497267ED271CA7A600B5C0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497267F0271CA7A600B5C0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497267F2271CA7A600B5C0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497267F9271CC27B00B5C0ED /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		497267FE271CC3C600B5C0ED /* LevelOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneViewController.swift; sourceTree = "<group>"; };
+		49726801271CC3F500B5C0ED /* LevelTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwoViewController.swift; sourceTree = "<group>"; };
+		49726804271CC49700B5C0ED /* Level1Story1Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Story1Page1ViewController.swift; sourceTree = "<group>"; };
+		49726807271CC4BD00B5C0ED /* Level1Story1Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Story1Page2ViewController.swift; sourceTree = "<group>"; };
+		4972680A271CC4DD00B5C0ED /* Level1Story2Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Story2Page1ViewController.swift; sourceTree = "<group>"; };
+		4972680D271CC50A00B5C0ED /* Level2Story1Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2Story1Page1ViewController.swift; sourceTree = "<group>"; };
+		49726810271CC54000B5C0ED /* Level2Story1Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2Story1Page2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,29 @@
 			children = (
 				497267E4271CA7A500B5C0ED /* AppDelegate.swift */,
 				497267E6271CA7A500B5C0ED /* SceneDelegate.swift */,
-				497267E8271CA7A500B5C0ED /* ViewController.swift */,
 				497267EA271CA7A500B5C0ED /* Main.storyboard */,
 				497267ED271CA7A600B5C0ED /* Assets.xcassets */,
 				497267EF271CA7A600B5C0ED /* LaunchScreen.storyboard */,
 				497267F2271CA7A600B5C0ED /* Info.plist */,
+				497267FC271CC28A00B5C0ED /* View Controllers */,
 			);
 			path = Assignment4;
+			sourceTree = "<group>";
+		};
+		497267FC271CC28A00B5C0ED /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				497267E8271CA7A500B5C0ED /* ViewController.swift */,
+				497267F9271CC27B00B5C0ED /* InfoViewController.swift */,
+				497267FE271CC3C600B5C0ED /* LevelOneViewController.swift */,
+				49726801271CC3F500B5C0ED /* LevelTwoViewController.swift */,
+				49726804271CC49700B5C0ED /* Level1Story1Page1ViewController.swift */,
+				49726807271CC4BD00B5C0ED /* Level1Story1Page2ViewController.swift */,
+				4972680A271CC4DD00B5C0ED /* Level1Story2Page1ViewController.swift */,
+				4972680D271CC50A00B5C0ED /* Level2Story1Page1ViewController.swift */,
+				49726810271CC54000B5C0ED /* Level2Story1Page2ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +170,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				497267E9271CA7A500B5C0ED /* ViewController.swift in Sources */,
+				49726808271CC4BD00B5C0ED /* Level1Story1Page2ViewController.swift in Sources */,
+				497267FF271CC3C600B5C0ED /* LevelOneViewController.swift in Sources */,
 				497267E5271CA7A500B5C0ED /* AppDelegate.swift in Sources */,
+				49726805271CC49700B5C0ED /* Level1Story1Page1ViewController.swift in Sources */,
+				497267FA271CC27B00B5C0ED /* InfoViewController.swift in Sources */,
+				49726802271CC3F500B5C0ED /* LevelTwoViewController.swift in Sources */,
+				49726811271CC54000B5C0ED /* Level2Story1Page2ViewController.swift in Sources */,
 				497267E7271CA7A500B5C0ED /* SceneDelegate.swift in Sources */,
+				4972680B271CC4DD00B5C0ED /* Level1Story2Page1ViewController.swift in Sources */,
+				4972680E271CC50A00B5C0ED /* Level2Story1Page1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
