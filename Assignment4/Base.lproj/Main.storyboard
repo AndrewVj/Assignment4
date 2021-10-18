@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ymn-d1-5jI">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ymn-d1-5jI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -15,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_522305608" translatesAutoresizingMaskIntoConstraints="NO" id="b05-09-RRk">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ke0-rX-4lv">
                                 <rect key="frame" x="171" y="347" width="73" height="42"/>
@@ -42,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVh-mt-BvE">
-                                <rect key="frame" x="270" y="616" width="100" height="100"/>
+                                <rect key="frame" x="270" y="742" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="LPc-Vb-8Sa"/>
                                     <constraint firstAttribute="height" constant="100" id="ZmG-kA-4sV"/>
@@ -82,12 +81,13 @@
             <objects>
                 <viewController id="kcb-Iu-3ZC" customClass="InfoViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kIG-o7-xHu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EL-Cc-8Fu">
                                 <rect key="frame" x="99" y="413" width="214" height="122"/>
-                                <string key="text">This app tells varios  story according to kids level  Level 1 : Age 1-10Level 2 : Age 10-20 </string>
+                                <string key="text">This app tells varios  story according to kids level  Level 1 : Age 1-10
+Level 2 : Age 10-20 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -123,11 +123,11 @@
             <objects>
                 <viewController id="rlI-dc-yFV" customClass="LevelTwoViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MNf-Bk-Al7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_522305608" translatesAutoresizingMaskIntoConstraints="NO" id="GOr-Wb-asm">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVe-3J-cPr">
                                 <rect key="frame" x="81" y="391" width="244" height="36"/>
@@ -162,61 +162,66 @@
             <objects>
                 <viewController id="XUo-VF-JBJ" customClass="Level2Story1Page1ViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1X9-HG-vzB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion-King-Remake" translatesAutoresizingMaskIntoConstraints="NO" id="Zh4-ac-2ag">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion-King-Remake" translatesAutoresizingMaskIntoConstraints="NO" id="Zh4-ac-2ag">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tg8-YD-RVb">
+                                <rect key="frame" x="85" y="267" width="245" height="224"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="gcN-US-p2B"/>
+                                </constraints>
+                                <string key="text">Once upon a time, there was  a slave who was mistreated  by his master. He couldn’t  stand it any longer and fled to  the forest to seek refuge. He  came upon a lion who was  unable to move due to a thorn  in its paw. Despite his fear,  the slave summoned his  bravery and extracted the thorn  from the lion’s paw.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8q-MM-duz">
-                                <rect key="frame" x="155" y="786" width="90" height="36"/>
+                                <rect key="frame" x="162.5" y="826" width="89" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Next Page"/>
                                 <connections>
                                     <segue destination="apu-On-HvM" kind="show" id="70b-t0-NRj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tg8-YD-RVb">
-                                <rect key="frame" x="85" y="267" width="245" height="224"/>
-                                <mutableString key="text">Once upon a time, there was  a slave who was mistreated  by his master. He couldn’t  stand it any longer and fled to  the forest to seek refuge. He  came upon a lion who was  unable to move due to a thorn  in its paw. Despite his fear,  the slave summoned his  bravery and extracted the thorn  from the lion’s paw.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Eh-tT-6NA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Tg8-YD-RVb" firstAttribute="centerY" secondItem="0Eh-tT-6NA" secondAttribute="centerY" id="3Or-ZI-Bcs"/>
-                            <constraint firstItem="Tg8-YD-RVb" firstAttribute="centerX" secondItem="0Eh-tT-6NA" secondAttribute="centerX" id="GIM-dF-0vo"/>
-                            <constraint firstAttribute="bottom" secondItem="Zh4-ac-2ag" secondAttribute="bottom" id="Kf9-ca-i0k"/>
-                            <constraint firstItem="t8q-MM-duz" firstAttribute="leading" secondItem="0Eh-tT-6NA" secondAttribute="leading" constant="155" id="Lan-9Y-7cc"/>
-                            <constraint firstItem="Zh4-ac-2ag" firstAttribute="trailing" secondItem="0Eh-tT-6NA" secondAttribute="trailing" id="Ms4-YD-0uk"/>
-                            <constraint firstItem="Zh4-ac-2ag" firstAttribute="leading" secondItem="0Eh-tT-6NA" secondAttribute="leading" id="OO8-E3-Ja2"/>
-                            <constraint firstItem="Zh4-ac-2ag" firstAttribute="top" secondItem="1X9-HG-vzB" secondAttribute="top" id="e8Q-MZ-PPI"/>
-                            <constraint firstItem="t8q-MM-duz" firstAttribute="top" secondItem="0Eh-tT-6NA" secondAttribute="top" constant="742" id="wPM-bf-Gjk"/>
+                            <constraint firstItem="Tg8-YD-RVb" firstAttribute="top" secondItem="0Eh-tT-6NA" secondAttribute="top" constant="223" id="5mu-Qq-dTF"/>
+                            <constraint firstItem="Zh4-ac-2ag" firstAttribute="top" secondItem="1X9-HG-vzB" secondAttribute="top" id="GcZ-wb-Uae"/>
+                            <constraint firstItem="Zh4-ac-2ag" firstAttribute="leading" secondItem="0Eh-tT-6NA" secondAttribute="leading" id="PFy-zy-pGK"/>
+                            <constraint firstAttribute="bottom" secondItem="Zh4-ac-2ag" secondAttribute="bottom" id="VJh-Ts-53F"/>
+                            <constraint firstItem="Zh4-ac-2ag" firstAttribute="trailing" secondItem="0Eh-tT-6NA" secondAttribute="trailing" id="XJS-hZ-gQK"/>
+                            <constraint firstItem="t8q-MM-duz" firstAttribute="bottom" secondItem="0Eh-tT-6NA" secondAttribute="bottom" id="YG2-lg-Fcv"/>
+                            <constraint firstItem="Tg8-YD-RVb" firstAttribute="centerX" secondItem="Zh4-ac-2ag" secondAttribute="centerX" id="ZOt-vx-Hmm"/>
+                            <constraint firstItem="Tg8-YD-RVb" firstAttribute="centerX" secondItem="t8q-MM-duz" secondAttribute="centerX" id="fHN-E6-pBn"/>
+                            <constraint firstItem="t8q-MM-duz" firstAttribute="leading" secondItem="0Eh-tT-6NA" secondAttribute="leading" constant="162.5" id="ggw-IJ-u7q"/>
+                            <constraint firstItem="Tg8-YD-RVb" firstAttribute="leading" secondItem="0Eh-tT-6NA" secondAttribute="leading" constant="85" id="uRp-hM-g1a"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RtO-6M-SlL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eg2-nM-SZb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3535" y="582"/>
+            <point key="canvasLocation" x="3534.7826086956525" y="581.25"/>
         </scene>
         <!--Level2 Story1 Page2 View Controller-->
         <scene sceneID="95W-Fh-DvO">
             <objects>
                 <viewController id="apu-On-HvM" customClass="Level2Story1Page2ViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qb8-Wu-fSA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion-King-Remake" translatesAutoresizingMaskIntoConstraints="NO" id="lfJ-rp-pEx">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion-King-Remake" translatesAutoresizingMaskIntoConstraints="NO" id="lfJ-rp-pEx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkC-V5-ois">
                                 <rect key="frame" x="121" y="262" width="262" height="325"/>
-                                <mutableString key="text">When the lion was finally free  of the thorn, he dashed into  the jungle, oblivious to the  slave’s presence. The slave  was eventually apprehended  in the jungle by his master,  along with some animals.  The slave was then thrown  into the lion’s den by the  master. The slave recognized  the lion as the one he had  aided in the wilderness.  The slave was able to flee the den  without being hurt, and he  was able to free all  of the other animals.</mutableString>
+                                <string key="text">When the lion was finally free  of the thorn, he dashed into  the jungle, oblivious to the  slave’s presence. The slave  was eventually apprehended  in the jungle by his master,  along with some animals.  The slave was then thrown  into the lion’s den by the  master. The slave recognized  the lion as the one he had  aided in the wilderness.  The slave was able to flee the den  without being hurt, and he  was able to free all  of the other animals.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -244,14 +249,14 @@
             <objects>
                 <viewController id="aJr-MT-9ep" customClass="LevelOneViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ngu-ga-sgY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_522305608" translatesAutoresizingMaskIntoConstraints="NO" id="3Oa-LB-GgY">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQl-NA-fll">
-                                <rect key="frame" x="146" y="431" width="154" height="36"/>
+                                <rect key="frame" x="146" y="557" width="154" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="The golden touch">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -260,8 +265,11 @@
                                     <segue destination="yi4-qc-oli" kind="show" id="RfC-gF-fth"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9Hp-Vb-IXm">
-                                <rect key="frame" x="82" y="330" width="235" height="93"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9Hp-Vb-IXm">
+                                <rect key="frame" x="82" y="374" width="235" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="o6X-g0-sHP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal">
                                     <string key="title">The Tortoise And  The Hare
@@ -276,14 +284,15 @@
                         <viewLayoutGuide key="safeArea" id="Qqh-ue-hm5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9Hp-Vb-IXm" firstAttribute="top" secondItem="Qqh-ue-hm5" secondAttribute="top" constant="243" id="59j-Mr-LT4"/>
                             <constraint firstItem="3Oa-LB-GgY" firstAttribute="top" secondItem="Ngu-ga-sgY" secondAttribute="top" id="IC0-xt-qap"/>
                             <constraint firstItem="3Oa-LB-GgY" firstAttribute="trailing" secondItem="Qqh-ue-hm5" secondAttribute="trailing" id="IUc-I8-h8C"/>
                             <constraint firstAttribute="bottom" secondItem="3Oa-LB-GgY" secondAttribute="bottom" id="LRH-wE-EoH"/>
                             <constraint firstItem="cQl-NA-fll" firstAttribute="leading" secondItem="Qqh-ue-hm5" secondAttribute="leading" constant="146" id="O8g-S1-Mo3"/>
-                            <constraint firstItem="9Hp-Vb-IXm" firstAttribute="leading" secondItem="Qqh-ue-hm5" secondAttribute="leading" constant="150" id="WZY-Hi-tYz"/>
                             <constraint firstItem="3Oa-LB-GgY" firstAttribute="leading" secondItem="Qqh-ue-hm5" secondAttribute="leading" id="Xkt-sk-Udu"/>
+                            <constraint firstItem="Qqh-ue-hm5" firstAttribute="trailing" secondItem="9Hp-Vb-IXm" secondAttribute="trailing" constant="97" id="jek-JB-Xpk"/>
+                            <constraint firstItem="9Hp-Vb-IXm" firstAttribute="top" secondItem="Qqh-ue-hm5" secondAttribute="top" constant="286" id="l8n-Y3-Vl0"/>
                             <constraint firstItem="Qqh-ue-hm5" firstAttribute="bottom" secondItem="cQl-NA-fll" secondAttribute="bottom" constant="269" id="lmT-M7-i3P"/>
+                            <constraint firstItem="9Hp-Vb-IXm" firstAttribute="leading" secondItem="Qqh-ue-hm5" secondAttribute="leading" constant="82" id="yi1-f2-Xfo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XKs-6i-Sxu"/>
@@ -297,19 +306,18 @@
             <objects>
                 <viewController id="yi4-qc-oli" customClass="Level1Story2Page1ViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vEB-wz-LOT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0__rzaHOzFD7KJrBsr" translatesAutoresizingMaskIntoConstraints="NO" id="jqs-p9-vKC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQK-Gz-dc8">
-                                <rect key="frame" x="53" y="182" width="343" height="244"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">There once was a king named  Midas who did a good deed  for a Satyr. And he was then  granted a wish by Dionysus,  the god of wine.
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQK-Gz-dc8">
+                                <rect key="frame" x="53" y="220" width="343" height="243.5"/>
+                                <string key="text">There once was a king named  Midas who did a good deed  for a Satyr. And he was then  granted a wish by Dionysus,  the god of wine.
 
 For his wish, Midas asked that  whatever he touched would turn to gold.  Despite Dionysus’ efforts to prevent it,  Midas pleaded that this was a fantastic wish,  and so, it was bestowed.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -318,7 +326,10 @@ For his wish, Midas asked that  whatever he touched would turn to gold.  Des
                         <viewLayoutGuide key="safeArea" id="Lpp-tp-f4O"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="oQK-Gz-dc8" firstAttribute="leading" secondItem="Lpp-tp-f4O" secondAttribute="leading" constant="53" id="BuB-Rv-bHz"/>
+                            <constraint firstItem="Lpp-tp-f4O" firstAttribute="bottom" secondItem="oQK-Gz-dc8" secondAttribute="bottom" constant="748" id="CUc-f4-kaD"/>
                             <constraint firstItem="jqs-p9-vKC" firstAttribute="leading" secondItem="Lpp-tp-f4O" secondAttribute="leading" id="Ism-Rb-A3D"/>
+                            <constraint firstItem="oQK-Gz-dc8" firstAttribute="top" secondItem="Lpp-tp-f4O" secondAttribute="top" constant="132" id="QvG-C7-e1L"/>
                             <constraint firstItem="jqs-p9-vKC" firstAttribute="trailing" secondItem="Lpp-tp-f4O" secondAttribute="trailing" id="bE2-3G-aI8"/>
                             <constraint firstItem="jqs-p9-vKC" firstAttribute="top" secondItem="vEB-wz-LOT" secondAttribute="top" id="f3N-q0-p1T"/>
                             <constraint firstAttribute="bottom" secondItem="jqs-p9-vKC" secondAttribute="bottom" id="nyX-cs-eF6"/>
@@ -335,30 +346,30 @@ For his wish, Midas asked that  whatever he touched would turn to gold.  Des
             <objects>
                 <viewController id="66N-cV-F39" customClass="Level1Story1Page1ViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5nX-S5-WjY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TortoiseHare" translatesAutoresizingMaskIntoConstraints="NO" id="owc-AI-VCO">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="38" width="414" height="820"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrq-sA-4vt">
-                                <rect key="frame" x="162" y="704" width="90" height="36"/>
+                                <rect key="frame" x="162" y="748" width="90" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Next Page"/>
                                 <connections>
                                     <segue destination="zS4-3n-vZr" kind="show" id="Xrx-Ey-ame"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBX-kD-gva">
-                                <rect key="frame" x="92" y="252" width="296" height="406"/>
-                                <mutableString key="text">A Hare was making fun of the  Tortoise one day for being so slow.
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBX-kD-gva">
+                                <rect key="frame" x="92" y="290" width="267.5" height="406"/>
+                                <string key="text">A Hare was making fun of the  Tortoise one day for being so slow.
 "Do you ever get anywhere?"  he asked with a mocking laugh.
 
 "Yes," replied the Tortoise,  "and I get there sooner than  you think.  I'll run you a race and prove it."
 
 The Hare was much amused  at the idea of running a race  with the Tortoise, but for the  fun of the thing he agreed. So  the Fox, who had consented  to act as judge, marked the  distance and started the  runners off.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -367,14 +378,14 @@ The Hare was much amused  at the idea of running a race  with the Tortoise, 
                         <viewLayoutGuide key="safeArea" id="XPP-rt-NhI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="wrq-sA-4vt" firstAttribute="bottom" secondItem="XPP-rt-NhI" secondAttribute="bottom" constant="4" id="0sO-2E-fpB"/>
-                            <constraint firstItem="owc-AI-VCO" firstAttribute="top" secondItem="5nX-S5-WjY" secondAttribute="top" id="1nK-DO-e1x"/>
-                            <constraint firstItem="owc-AI-VCO" firstAttribute="trailing" secondItem="XPP-rt-NhI" secondAttribute="trailing" id="7S2-pm-Tgp"/>
-                            <constraint firstItem="KBX-kD-gva" firstAttribute="centerX" secondItem="XPP-rt-NhI" secondAttribute="centerX" id="JSo-db-iXY"/>
-                            <constraint firstItem="wrq-sA-4vt" firstAttribute="centerX" secondItem="XPP-rt-NhI" secondAttribute="centerX" id="UEr-gq-s4n"/>
-                            <constraint firstItem="KBX-kD-gva" firstAttribute="centerY" secondItem="XPP-rt-NhI" secondAttribute="centerY" id="gWQ-Gd-Lc3"/>
-                            <constraint firstAttribute="bottom" secondItem="owc-AI-VCO" secondAttribute="bottom" id="j01-uj-h6Q"/>
-                            <constraint firstItem="owc-AI-VCO" firstAttribute="leading" secondItem="XPP-rt-NhI" secondAttribute="leading" id="nur-m0-hLh"/>
+                            <constraint firstItem="owc-AI-VCO" firstAttribute="leading" secondItem="XPP-rt-NhI" secondAttribute="leading" id="0oK-PU-trc"/>
+                            <constraint firstItem="owc-AI-VCO" firstAttribute="centerY" secondItem="5nX-S5-WjY" secondAttribute="centerY" id="CVS-MN-653"/>
+                            <constraint firstItem="wrq-sA-4vt" firstAttribute="centerX" secondItem="5nX-S5-WjY" secondAttribute="centerX" id="T9H-3d-7FK"/>
+                            <constraint firstItem="owc-AI-VCO" firstAttribute="top" secondItem="5nX-S5-WjY" secondAttribute="topMargin" constant="-50" id="VdO-8O-rlH"/>
+                            <constraint firstItem="KBX-kD-gva" firstAttribute="leading" secondItem="XPP-rt-NhI" secondAttribute="leading" constant="92" id="fuS-lp-zYA"/>
+                            <constraint firstItem="KBX-kD-gva" firstAttribute="top" secondItem="XPP-rt-NhI" secondAttribute="top" constant="202" id="kfC-R9-R2s"/>
+                            <constraint firstItem="owc-AI-VCO" firstAttribute="centerX" secondItem="wrq-sA-4vt" secondAttribute="centerX" id="rvg-t2-ifi"/>
+                            <constraint firstItem="wrq-sA-4vt" firstAttribute="top" secondItem="KBX-kD-gva" secondAttribute="bottom" constant="52" id="zIa-hQ-Q4U"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JDc-ao-YxU"/>
@@ -388,17 +399,17 @@ The Hare was much amused  at the idea of running a race  with the Tortoise, 
             <objects>
                 <viewController id="zS4-3n-vZr" customClass="Level1Story1Page2ViewController" customModule="Assignment4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iwK-r4-A1z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TortoiseHare" translatesAutoresizingMaskIntoConstraints="NO" id="JRy-Gk-SjC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGr-lA-7ej">
-                                <rect key="frame" x="47" y="244" width="320" height="392"/>
-                                <mutableString key="text">The Hare was soon far out of sight,  and to make the  Tortoise feel very deeply how  ridiculous it was for him to try  a race with a Hare, he lay down beside the course to take a nap until the Tortoise  should catch up.
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGr-lA-7ej">
+                                <rect key="frame" x="47" y="282" width="322.5" height="42"/>
+                                <string key="text">The Hare was soon far out of sight,  and to make the  Tortoise feel very deeply how  ridiculous it was for him to try  a race with a Hare, he lay down beside the course to take a nap until the Tortoise  should catch up.
 
-The Tortoise meanwhile kept  going slowly but steadily , and, after a time, passed the  place where the Hare was sleeping.  But the Hare slept on very peacefully;  and when at last he did wake up, the  Tortoise was near the goal. The Hare now  ran his swiftest, but he could not overtake  the Tortoise in time.</mutableString>
+The Tortoise meanwhile kept  going slowly but steadily , and, after a time, passed the  place where the Hare was sleeping.  But the Hare slept on very peacefully;  and when at last he did wake up, the  Tortoise was near the goal. The Hare now  ran his swiftest, but he could not overtake  the Tortoise in time.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -407,12 +418,14 @@ The Tortoise meanwhile kept  going slowly but steadily , and, after a time, 
                         <viewLayoutGuide key="safeArea" id="7G1-IM-y4u"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CGr-lA-7ej" firstAttribute="centerY" secondItem="7G1-IM-y4u" secondAttribute="centerY" id="8DN-um-i3h"/>
-                            <constraint firstItem="CGr-lA-7ej" firstAttribute="centerX" secondItem="7G1-IM-y4u" secondAttribute="centerX" id="E1J-nO-cGj"/>
+                            <constraint firstItem="7G1-IM-y4u" firstAttribute="bottom" secondItem="CGr-lA-7ej" secondAttribute="bottom" constant="538" id="0Yb-y1-Ffw"/>
+                            <constraint firstItem="CGr-lA-7ej" firstAttribute="leading" secondItem="7G1-IM-y4u" secondAttribute="leading" constant="47" id="0aA-7P-E6F"/>
                             <constraint firstItem="JRy-Gk-SjC" firstAttribute="trailing" secondItem="7G1-IM-y4u" secondAttribute="trailing" id="NNY-1L-7Yo"/>
                             <constraint firstItem="JRy-Gk-SjC" firstAttribute="top" secondItem="iwK-r4-A1z" secondAttribute="top" id="PBB-lN-hic"/>
                             <constraint firstItem="JRy-Gk-SjC" firstAttribute="leading" secondItem="7G1-IM-y4u" secondAttribute="leading" id="Yns-SC-uPk"/>
                             <constraint firstAttribute="bottom" secondItem="JRy-Gk-SjC" secondAttribute="bottom" id="Z8k-1J-eSB"/>
+                            <constraint firstItem="CGr-lA-7ej" firstAttribute="top" secondItem="7G1-IM-y4u" secondAttribute="top" constant="194" id="dLB-wE-p84"/>
+                            <constraint firstItem="7G1-IM-y4u" firstAttribute="trailing" secondItem="CGr-lA-7ej" secondAttribute="trailing" constant="467" id="vZq-ik-ucC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9WK-Kr-F48"/>
@@ -427,7 +440,7 @@ The Tortoise meanwhile kept  going slowly but steadily , and, after a time, 
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ymn-d1-5jI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ejI-yo-JsL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
