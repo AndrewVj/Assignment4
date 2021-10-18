@@ -165,7 +165,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the-lion-king-1" translatesAutoresizingMaskIntoConstraints="NO" id="Zh4-ac-2ag">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion-King-Remake" translatesAutoresizingMaskIntoConstraints="NO" id="Zh4-ac-2ag">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8q-MM-duz">
@@ -211,7 +211,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the-lion-king-1" translatesAutoresizingMaskIntoConstraints="NO" id="lfJ-rp-pEx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion-King-Remake" translatesAutoresizingMaskIntoConstraints="NO" id="lfJ-rp-pEx">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkC-V5-ois">
@@ -442,10 +442,10 @@ The Tortoise meanwhile kept  going slowly but steadily , and, after a time, 
     </scenes>
     <resources>
         <image name="0__rzaHOzFD7KJrBsr" width="424" height="500"/>
+        <image name="Lion-King-Remake" width="2000" height="1125"/>
         <image name="TortoiseHare" width="800" height="800"/>
         <image name="info.circle.fill" catalog="system" width="128" height="121"/>
         <image name="shutterstock_522305608" width="1000" height="714"/>
-        <image name="the-lion-king-1" width="1284" height="856"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
